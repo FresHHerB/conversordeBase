@@ -5,14 +5,15 @@ void converterBaseX(){
     
     int * vetor = malloc(sizeof(int) * 100);
     int i,j,n,X;
-    int n_aux=n;
+    int n_aux;
     
     printf("\n");
-    printf("=================================\n");
-    printf("|      Conversor de Base X      |\n");
-    printf("=================================\n\n");
+    printf("\t=================================\n");
+    printf("\t|      Conversor de Base X      |\n");
+    printf("\t=================================\n\n");
     printf("\nInforme o numero da base 10 que deseja converter: ");
     scanf("%d", &n);
+    n_aux=n;
     printf("Informe um numero [1-9] de base que deseja converter o numero %d: ",n);
     scanf("%d", &X);
     
